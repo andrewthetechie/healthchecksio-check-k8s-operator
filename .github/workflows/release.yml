@@ -34,6 +34,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: 
-            - andrewthetechie/healthchecksio-check-k8s-operator:latest
-            - andrewthetechie/healthchecksio-check-k8s-operator:${{ github.event.release.tag_name }}
+          tags: andrewthetechie/healthchecksio-check-k8s-operator:latest,andrewthetechie/healthchecksio-check-k8s-operator:${{ github.event.release.tag_name }}
