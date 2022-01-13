@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  hcio-check-operator:
+  - apiVersion: v2
+    appVersion: 0.0.2a
+    created: "2022-01-13T04:12:42.332021599Z"
+    description: An operator for managing healthchecks.io checks via kubernetes
+    digest: 58a40bfca15e2bda7bc9adf0c838efc2236eee22139e8026d467764801986c8e
+    name: hcio-check-operator
+    type: application
+    urls:
+    - https://github.com/andrewthetechie/healthchecksio-check-k8s-operator/releases/download/hcio-check-operator-0.0.2/hcio-check-operator-0.0.2.tgz
+    version: 0.0.2
+generated: "2022-01-13T04:12:42.189005939Z"
