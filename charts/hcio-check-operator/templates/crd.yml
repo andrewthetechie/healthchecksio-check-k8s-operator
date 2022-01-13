@@ -3,6 +3,8 @@ kind: CustomResourceDefinition
 metadata:
   # name must match the spec fields below, and be in the form: <plural>.<group>
   name: checks.healthchecks.io
+  labels:
+    {{- include "hcio-check-operator.labels" . | nindent 4 }}
 spec:
   # group name to use for REST API: /apis/<group>/<version>
   group: healthchecks.io

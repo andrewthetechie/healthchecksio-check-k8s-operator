@@ -1,0 +1,7 @@
+1. Check for the pods running by running
+kubectl --namespace {{ .Release.Namespace }} get pods 
+
+Check for Healthchecks.io Checks with kubectl --all-namespaces get checks
+
+Troubleshooting:
+If your pods are not starting, did you setup a secret to match the values in values.yaml?

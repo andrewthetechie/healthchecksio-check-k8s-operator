@@ -54,9 +54,6 @@ app.kubernetes.io/instance: {{ .Release.Name }}
 Create the name of the service account to use
 */}}
 {{- define "hcio-check-operator.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
 {{- default (include "hcio-check-operator.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
+{{- default "default" .Values.serviceAccount.name }}q
 {{- end }}
