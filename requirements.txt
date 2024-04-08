@@ -1,3 +1,3 @@
 kopf==1.37.2
 healthchecks-io==0.4.0
-pykube-ng==22.9.0
+pykube-ng==23.6.0
